@@ -11,5 +11,5 @@ posts = data_functions.get_data("u14classes2/data.txt")
 
 
 # save all posts persistently
-data_functions.save_data(posts)
+data_functions.save_data("u12classes2/data.txt", posts)
 print("\nThanks for visiting!")

@@ -16,5 +16,6 @@ class Post:
 
     # What is this method returning?
     def __str__(self):
-        return "Surprise! This is a TODO later :)"
+        return self.username + "," + self.message + "," + str(self.timestamp)
+    
 

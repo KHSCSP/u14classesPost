@@ -8,6 +8,6 @@ class Customer:
         self.money += amt
 
     def __str__(self):
-        return this.name + " has " + str(this.money)
+        return self.name + " has " + str(self.money)
     
     
